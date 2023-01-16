@@ -3,7 +3,9 @@
 # seminr contains the data
 library(seminr)
 
+# a tool to generate plots with ggplot2
 library(esquisse)
+
 # shows us a help about the data set
 ?seminr::mobi
 
@@ -21,4 +23,6 @@ sd(mobi$CUEX1)
 
 # using a t-test to generate a confidence interval
 t.test(mobi$CUEX1, conf.level = .95)
+
+
 
